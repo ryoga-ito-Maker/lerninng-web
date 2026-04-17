@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+.form {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.note {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  background: repeating-linear-gradient(
+    white 0px,
+    white 24px,
+    steelblue 25px
+  );
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 5px #888;
+  padding: 20px;
+}
+
+.note p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 10px;
+  height: calc(100% - 40px);
+  outline: none;
+}
